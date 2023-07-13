@@ -12,7 +12,7 @@ header {
 }
 
 .logo img {
-  width:150px;
+  width:120px;
   height: 100px;
 }
 
@@ -86,7 +86,7 @@ nav {
 }
 
 /* Estilos específicos del footer */
-footer {
+.footer {
   background-color: #00121a;
   padding: 20px 0;
   text-align: center;
@@ -120,11 +120,11 @@ footer {
   }
 }
 
-section {
+.container-preguntas {
   padding: 20px;
 }
 
-.section h2 {
+.container-preguntas h2 {
   color: #333;
   margin-bottom: 20px;
 }
@@ -147,15 +147,11 @@ section {
   padding: 20px;
 }
 
-main {
+.contenedor-ofertas {
   margin: 10px;
 }
 
-h1 {
-  text-align: center;
-}
 
-/* Estilos de la fila de productos */
 .fila-productos {
   display: flex;
   flex-direction: column;
@@ -223,7 +219,6 @@ h1 {
 
 .form-group {
   margin-bottom: 40px;
-
 }
 
 .form-group label {
@@ -250,7 +245,4 @@ h1 {
     margin: 0;
     margin-bottom: 200px;
   }
-
-
-
 }
