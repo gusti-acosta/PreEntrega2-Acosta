@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "sass scss:css",
+    "watch:scss": "sass --watch scss:css"
   },
   "author": "",
   "license": "ISC"
