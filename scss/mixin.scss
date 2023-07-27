@@ -1,0 +1,12 @@
+
+@mixin flex-row-wrap-spaceAround {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+@mixin width-height($width, $height){
+    width: $width ;
+    height: $height;
+}

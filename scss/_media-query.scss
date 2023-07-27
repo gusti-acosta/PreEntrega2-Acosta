@@ -1,0 +1,32 @@
+@import 'estructuras';
+
+@media (max-width: 768px) {
+  .productos {
+    grid-template-columns: 1fr 1fr;
+  }
+  .oferta {
+    display: block;
+  }
+}
+@media (max-width: 375px) {
+  .productos {
+    grid-template-columns: 1fr;
+    width: 300px;
+    img {
+    width: 100px;
+    }
+  }
+  .oferta {
+    flex: 1;
+    display: block;
+    img {
+    height: 100%;
+    width: 100%;
+    }
+
+  }
+  .Formulario-container{
+    margin: 0;
+    margin-bottom: 200px;
+  }
+}
