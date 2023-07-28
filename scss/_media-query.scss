@@ -1,4 +1,5 @@
 @import 'estructuras';
+@import 'medidas';
 
 @media (max-width: 768px) {
   .productos {
@@ -20,8 +21,8 @@
     flex: 1;
     display: block;
     img {
-    height: 100%;
-    width: 100%;
+    height: $h-100;
+    width: $w-100;
     }
 
   }
