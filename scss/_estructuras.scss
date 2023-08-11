@@ -12,19 +12,42 @@ body{
 }
 
 header {
-    background-color: $color-header-footer;
-    div {  
-        .logo {
-            img {
-                width: 120px;
-                height: 100px;
-            }
+    display: flex;
+    background-color: $color-header-footer;   
+    align-items: center;
+    .logo {
+        img {
+            width: 120px;
+            height: 100px;
         }
+    }
+    .search-bar {
+        margin: auto;
+        input[type="text"] {
+        width: 500px;
+        padding: 5px;
+        border: none;
+        border-radius: 4px;
+        margin-right: 10px;
+        }
+        button {
+        background-color: #FF5733;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        padding: 5px 10px;
+        }
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        button:hover {
+        background-color: #E64A19;
+        }
+    
     }
 }
 
 nav {
-    background-color: $color-nav;
+    background-color: #FF5733;
     color: $blanco;
 }
   
@@ -33,22 +56,25 @@ nav {
 }
   
 .subtitulo {
-    border-bottom: 2px solid $color-borde2;
-    color: rgba(0,0,0,.9);
+    // border-bottom: 2px solid $color-borde2;
+    // color: rgba(0,0,0,.9);
     font-size: 35px;
     font-weight: 400px;
     margin: 0 0 0 8px;
+    display: flex;
+    justify-content: center;
+    color:#FF5733;
+    text-decoration: underline;
 }
    /* Productos */
 .productos {
     max-width: 1200px;
     margin: 20px auto;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
     .producto {
         border: 2px solid  $color-borde1;
-        border-radius: 5px;
         text-align: center;
         &:hover {
             box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
@@ -58,7 +84,10 @@ nav {
             max-width: $w-100;
         }
         h3{
+            max-height: 100px;
+            min-height: 100px;
             margin: 10px 0;
+            overflow: hidden;
         }
         p {
             margin: 0;
@@ -66,13 +95,13 @@ nav {
         button {
             display: inline-block;
             padding: 8px 16px;
-            background-color: $color-verde;
+            background-color: #FF5733;
             color: $blanco;
             text-decoration: none;
             border-radius: 5px;
             transition: background-color 0.3s ease;
             &:hover {
-                background-color: #45a009;
+                background-color: #E64A19;
             }
         }
     } 
@@ -82,12 +111,14 @@ nav {
     .item-publicidad{
         margin: 10px;
         width: 384px ;
-        height: 240px; 
-        img {
-            width: $w-100;
-            height: $h-100;
-            border-radius: 10px;
-        }
+        height: 240px;
+        a {
+            img {
+                width: $w-100;
+                height: $h-100;
+                border-radius: 10px;
+            }
+        } 
     }
 }
 
@@ -129,7 +160,7 @@ nav {
         border-radius: 5px;
         transition: transform 0.3s ease;
         &:hover {
-        transform: scale(1.03);
+        transform: scale(1.02);
         }
         h3 {
             color: $color-h3;
@@ -139,7 +170,6 @@ nav {
 }
   
 .contenedor-ofertas {
-    margin-top: 5px;
     .banner-principal {
         display: flex;
         justify-content: center;
@@ -186,12 +216,26 @@ nav {
                 border-radius: 4px;
                 border: 1px solid $color-borde1;
                 &[type="submit"] {
-                    background-color: $color-verde;
+                    background-color: #FF5733;
                     color: $blanco;
                     cursor: pointer;
+                    transition: transform 0.3s ease;
+                    &:hover {
+                    transform: scale(1.03);
+                    }
                 }
+                &[type="button"] {
+                    transition: transform 0.3s ease;
+                    &:hover {
+                        transform: scale(1.03);
+                    }
+                } 
             }
         }
     }    
+}
+
+#carouselExampleControls {
+    margin: 0px 70px 20px 70px;
 }
 

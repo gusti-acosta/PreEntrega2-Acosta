@@ -10,13 +10,11 @@
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-  <header class="navbar bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="logo"><img src="../img/logo/png-transparent-e-commerce-logo-logo-e-commerce-electronic-business-ecommerce-angle-text-service.png"></a>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+  <header>
+    <a class="logo"><img src="../img/logo/png-transparent-e-commerce-logo-logo-e-commerce-electronic-business-ecommerce-angle-text-service.png"></a>
+    <div class="search-bar">
+      <input type="text" placeholder="Buscar productos">
+      <button>Buscar</button>
     </div>
   </header>
   <nav class="navbar navbar-expand-sm navbar-light .bg-light" >
@@ -35,7 +33,7 @@
           <a class="nav-link" href="./ayuda.html">Ayuda</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="./tecnologia.html">Tecnologia</a>
+          <a class="nav-link" href="./tecnologia.html">Tecnología</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="./micuenta.html">Mi cuenta</a>
@@ -44,25 +42,60 @@
     </div>
   </nav>
 
-  <h3 class="subtitulo">Ofertas</h3>
-
   <main class="contenedor-ofertas">
     <section class="banner-principal">
       <img src="../img/ofertas/banner-principal.jpg" alt="banner principal">
     </section>
     <section class="banner">
       <div class="item-banner">
-        <img src="../img/ofertas/banner-oferta.jpg" alt="descuentos en cervezas">
+        <a href="#InfusionesyEndulzantes"><img src="../img/ofertas/banner-oferta3.jpg" alt="Infusiones y Endulzantes"></a>
       </div>
       <div class="item-banner">
-        <img src="../img/ofertas/banner-oferta2.jpg" alt="descuentos en vino">
+        <a href="#vinos"><img src="../img/ofertas/banner-oferta2.jpg" alt="descuentos en vino"></a>
       </div>
       <div class="item-banner">
-        <img src="../img/ofertas/banner-oferta3.jpg" alt="descunetos en infusiones">
+        <a href="#cervezas"><img src="../img/ofertas/banner-oferta.jpg" alt="descuentos en cervezas"></a>
       </div>
     </section>
     <main class="contenedor-productos">
+      <h2 class="subtitulo" id="InfusionesyEndulzantes">Infusiones y Endulzantes</h2>
       <section class="productos">
+        <div class="producto">
+          <img src="../img/ofertas/oferta1.jpg" alt="Café Nescafé Dolca Suave">
+          <h3>Café Nescafé Dolca Suave </h3>
+          <p>Precio: $1.799</p>
+          <button>Agregar al carrito</button>
+        </div>
+        <div class="producto">
+          <img src="../img/ofertas/oferta2.jpg" alt="Polvo Exquisita Chocolatado 180 Gr">
+          <h3>Polvo Exquisita Chocolatado 180 Gr</h3>
+          <p>Precio:$375</p>
+          <button>Agregar al carrito</button>
+        </div>
+        <div class="producto">
+          <img src="../img/ofertas/oferta3.jpg" alt="Yerba Mate Amanda Suave 500 Gr">
+          <h3>Yerba Mate Amanda Suave 500 Gr.</h3>
+          <p>Precio: $649</p>
+          <button>Agregar al carrito</button>
+        </div>
+        <div class="producto">
+          <img src="../img/ofertas/oferta4.jpg" alt="Cápsula La Morenita Colombia 52 Gr">
+          <h3>Cápsula La Morenita Colombia 52 Gr.</h3>
+          <p>Precio: $1.199</p>
+          <button>Agregar al carrito</button>
+        </div>
+        <!-- <div class="producto">
+          <img src="../img/ofertas/oferta5.jpg" alt="Azúcar Plus DIA Común tipo A 1 Kg.">
+          <h3>Azúcar Plus DIA Común tipo A 1 Kg.</h3>
+          <p>Precio: $549</p>
+          <button>Agregar al carrito</button>
+        </div>
+        <div class="producto">
+          <img src="../img/ofertas/oferta6.jpg" alt="Mate Cocido DIA en saquitos 50 Ud">
+          <h3>Mate Cocido DIA en saquitos 50 Ud</h3>
+          <p>Precio: $209</p>
+          <button>Agregar al carrito</button>
+        </div>
         <div class="producto">
           <img src="../img/ofertas/oferta1.jpg" alt="Café Nescafé Dolca Suave ">
           <h3>Café Nescafé Dolca Suave </h3>
@@ -97,6 +130,60 @@
           <img src="../img/ofertas/oferta6.jpg" alt="Mate Cocido DIA en saquitos 50 Ud">
           <h3>Mate Cocido DIA en saquitos 50 Ud</h3>
           <p>Precio: $209</p>
+          <button>Agregar al carrito</button>
+        </div> -->
+      </section>
+      <h2 class="subtitulo"id="vinos">Vinos</h2>
+      <section class="productos">
+        <div class="producto" >
+          <img src="../img/ofertas/vinos/vino1.jpg" alt="Vino Tinto Malbec Origen Trapiche 750 Ml">
+          <h3>Vino Tinto Malbec Origen Trapiche 750 Ml</h3>
+          <p>Precio: $ 1.099</p>
+          <button>Agregar al carrito</button>
+        </div>
+        <div class="producto">
+          <img src="../img/ofertas/vinos/vino2.jpg" alt="Vino Rosado Pink Finca Natalia Blend 750 Ml.">
+          <h3>Vino Rosado Pink Finca Natalia Blend 750 Ml.</h3>
+          <p>Precio: $1.099</p>
+          <button>Agregar al carrito</button>
+        </div>
+        <div class="producto">
+          <img src="../img/ofertas/vinos/vino3.jpg" alt="Vino Tinto Puska Malbec 750 Ml.">
+          <h3>Vino Tinto Puska Malbec 750 Ml.</h3>
+          <p>Precio: $1.099</p>
+          <button>Agregar al carrito</button>
+        </div>
+        <div class="producto">
+          <img src="../img/ofertas/vinos/vino4.jpg" alt="Vino Tinto Puska Cabernet Sauvignon 750 Ml.">
+          <h3>Vino Tinto Puska Cabernet Sauvignon 750 Ml.</h3>
+          <p>Precio: $1.099</p>
+          <button>Agregar al carrito</button>
+        </div>
+      </section>
+      <h2 class="subtitulo"id="cervezas">Cervezas</h2>
+      <section class="productos">
+        <div class="producto" >
+          <img src="../img/ofertas/cervezas/cerveza1.jpg" alt="Cerveza Brahma 473 Ml">
+          <h3>Cerveza Brahma 473 Ml</h3>
+          <p>Precio: $390</p>
+          <button>Agregar al carrito</button>
+        </div>
+        <div class="producto">
+          <img src="../img/ofertas/cervezas/cerveza2.jpg" alt="Cerveza Rubia Warsteiner lata 473 Ml">
+          <h3>Cerveza Rubia Warsteiner lata 473 Ml.</h3>
+          <p>Precio: $220</p>
+          <button>Agregar al carrito</button>
+        </div>
+        <div class="producto">
+          <img src="../img/ofertas/cervezas/cerveza3.jpg" alt="Cerveza Ipa Quilmes 473 Ml">
+          <h3>Cerveza Ipa Quilmes 473 Ml</h3>
+          <p>Precio: $490</p>
+          <button>Agregar al carrito</button>
+        </div>
+        <div class="producto">
+          <img src="../img/ofertas/cervezas/cerveza4.jpg" alt="Cerveza Roja Andes en lata 473 Ml. ">
+          <h3>Cerveza Roja Andes en lata 473 Ml.</h3>
+          <p>Precio: $339</p>
           <button>Agregar al carrito</button>
         </div>
       </section>

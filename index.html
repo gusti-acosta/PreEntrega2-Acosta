@@ -11,15 +11,13 @@
     <link rel="stylesheet" href="./css/styles.css" > 
 </head>
 <body>
-  <header class="navbar bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="logo"><img src="./img/logo/png-transparent-e-commerce-logo-logo-e-commerce-electronic-business-ecommerce-angle-text-service.png"></a>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+  <header>
+    <a class="logo"><img src="../img/logo/png-transparent-e-commerce-logo-logo-e-commerce-electronic-business-ecommerce-angle-text-service.png"></a>
+    <div class="search-bar">
+      <input type="text" placeholder="Buscar productos">
+      <button>Buscar</button>
     </div>
-  </header>  
+  </header> 
   <nav class="navbar navbar-expand-sm navbar-light .bg-light" >
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#opciones">
       <span class="navbar-toggler-icon"></span>
@@ -66,8 +64,44 @@
     </a>
   </div>
   <main class="contenedor-productos">
-    <h3 class="subtitulo">Productos más vendidos</h3>
+    <h3 class="subtitulo">¡Productos Más Vendidos!</h3>
     <section class="productos">
+      <div class="producto">
+        <img src="./img/productos/producto1.jpg" alt="Bicicletas Overtech Fortis Talle L negro rojo">
+        <h3>Bicicletas Overtech Fortis Talle L negro rojo</h3>
+        <p>Precio: $80.769</p>
+        <button>Agregar al carrito</button>
+      </div>
+      <div class="producto">
+        <img src="./img/productos/producto2.jpg" alt="Mesa Picnic Plastica Portable 180cm  Gardenlife">
+        <h3>Mesa Picnic Plastica Portable 180cm  Gardenlife</h3>
+        <p>Precio: $15.000</p>
+        <button>Agregar al carrito</button>
+      </div>
+      <div class="producto">
+        <img src="./img/productos/producto3.jpg" alt="ULTRAFLEX EN POLVO X 300 GRAMOS ">
+        <h3>ULTRAFLEX EN POLVO X 300 GRAMOS </h3>
+        <p>Precio: $9.498</p>
+        <button>Agregar al carrito</button>
+      </div>
+      <div class="producto">
+        <img src="./img/productos/producto4.jpg" alt="Celular Samsung Galaxy A04 64/4GB Negro">
+        <h3>Celular Samsung Galaxy A04 64/4GB Negro</h3>
+        <p>Precio: $56.999,00</p>
+        <button>Agregar al carrito</button>
+      </div>
+      <div class="producto">
+        <img src="./img/productos/producto5.jpg" alt="Disco Rigido Externo 1tb Seagate  Usb 3.0 Portatil">
+        <h3>Disco Rigido Externo 1tb Seagate  Usb 3.0 Portatil</h3>
+        <p>Precio: $38.719</p>
+        <button>Agregar al carrito</button>
+      </div>
+      <div class="producto">
+        <img src="./img/productos/producto6.jpg" alt="Aire Split Bgh 3450w Frio Calor Bs35wccr">
+        <h3>Aire Split Bgh 3450w Frio Calor Bs35wccr</h3>
+        <p>Precio: $259.999</p>
+        <button>Agregar al carrito</button>
+      </div>
       <div class="producto">
         <img src="./img/productos/producto1.jpg" alt="Bicicletas Overtech Fortis Talle L negro rojo">
         <h3>Bicicletas Overtech Fortis Talle L negro rojo</h3>
@@ -108,7 +142,7 @@
   </main>
   <footer class="footer">
     <div class="container-footer">
-      <p>&copy; 2023 Mi Empresa. Todos los derechos reservados.</p>
+      <p class=".text-white">&copy; 2023 Mi Empresa. Todos los derechos reservados.</p>
       <div class="social-icons">
         <a   href="" class="social-icon"><i class="fab fa-facebook-f"></i>
           <img src="./img/iconos/facebook_circle_logo_icon_206764.png" alt="facebook">
