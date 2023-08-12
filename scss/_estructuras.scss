@@ -58,8 +58,8 @@ nav {
 .subtitulo {
     // border-bottom: 2px solid $color-borde2;
     // color: rgba(0,0,0,.9);
-    font-size: 35px;
-    font-weight: 400px;
+    font-size: 30px;
+    font-weight: 300px;
     margin: 0 0 0 8px;
     display: flex;
     justify-content: center;
@@ -72,7 +72,7 @@ nav {
     margin: 20px auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
+    grid-gap: 10px;
     .producto {
         border: 2px solid  $color-borde1;
         text-align: center;
@@ -108,10 +108,11 @@ nav {
 }
 .publicidad {
     @include flex-row-wrap-spaceAround;
+    flex-wrap: nowrap;
     .item-publicidad{
         margin: 10px;
         width: 384px ;
-        height: 240px;
+        max-height: 240px;
         a {
             img {
                 width: $w-100;
@@ -180,6 +181,7 @@ nav {
     }
     .banner{
         @include flex-row-wrap-spaceAround;
+        flex-wrap: nowrap;
         justify-content: center;
         .item-banner{
             margin: 10px;
