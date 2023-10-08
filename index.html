@@ -14,14 +14,17 @@
   <header>
     <a href="index.html"  class="logo"><img src="./img/logo/png-transparent-e-commerce-logo-logo-e-commerce-electronic-business-ecommerce-angle-text-service.png"></a>
     <div class="search-bar">
-      <input type="text" placeholder="Buscar productos">
+      <input id="inputBuscar" type="text" placeholder="Buscar productos">
       <button>Buscar</button>
     </div>
+    
+    
   </header> 
   <nav class="navbar navbar-expand-sm navbar-light .bg-light" >
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#opciones">
       <span class="navbar-toggler-icon"></span>
     </button>
+
     <div class="collapse navbar-collapse .text-light" id="opciones">   
       <ul class="navbar-nav">
         <li class="nav-item">
@@ -66,79 +69,21 @@
   <main class="contenedor-productos">
     <h3 class="subtitulo">¡Productos Más Vendidos!</h3>
     <section class="productos">
-      <div class="producto">
-        <img src="./img/productos/producto1.jpg" alt="Bicicletas Overtech Fortis Talle L negro rojo">
-        <h3>Bicicletas Overtech Fortis Talle L negro rojo</h3>
-        <p>Precio: $80.769</p>
-        <button>Agregar al carrito</button>
-      </div>
-      <div class="producto">
-        <img src="./img/productos/producto2.jpg" alt="Mesa Picnic Plastica Portable 180cm  Gardenlife">
-        <h3>Mesa Picnic Plastica Portable 180cm  Gardenlife</h3>
-        <p>Precio: $15.000</p>
-        <button>Agregar al carrito</button>
-      </div>
-      <div class="producto">
-        <img src="./img/productos/producto3.jpg" alt="ULTRAFLEX EN POLVO X 300 GRAMOS ">
-        <h3>ULTRAFLEX EN POLVO X 300 GRAMOS </h3>
-        <p>Precio: $9.498</p>
-        <button>Agregar al carrito</button>
-      </div>
-      <div class="producto">
-        <img src="./img/productos/producto4.jpg" alt="Celular Samsung Galaxy A04 64/4GB Negro">
-        <h3>Celular Samsung Galaxy A04 64/4GB Negro</h3>
-        <p>Precio: $56.999,00</p>
-        <button>Agregar al carrito</button>
-      </div>
-      <div class="producto">
-        <img src="./img/productos/producto5.jpg" alt="Disco Rigido Externo 1tb Seagate  Usb 3.0 Portatil">
-        <h3>Disco Rigido Externo 1tb Seagate  Usb 3.0 Portatil</h3>
-        <p>Precio: $38.719</p>
-        <button>Agregar al carrito</button>
-      </div>
-      <div class="producto">
-        <img src="./img/productos/producto6.jpg" alt="Aire Split Bgh 3450w Frio Calor Bs35wccr">
-        <h3>Aire Split Bgh 3450w Frio Calor Bs35wccr</h3>
-        <p>Precio: $259.999</p>
-        <button>Agregar al carrito</button>
-      </div>
-      <div class="producto">
-        <img src="./img/ofertas/oferta1.jpg" alt="Café Nescafé Dolca Suave ">
-        <h3>Café Nescafé Dolca Suave </h3>
-        <p>Precio: $1.799</p>
-        <button>Agregar al carrito</button>
-      </div>
-      <div class="producto">
-        <img src="./img/ofertas/oferta2.jpg" alt="Polvo Exquisita Chocolatado 180 Gr">
-        <h3>Polvo Exquisita Chocolatado 180 Gr</h3>
-        <p>Precio:$375</p>
-        <button>Agregar al carrito</button>
-      </div>
-      <div class="producto">
-        <img src="./img/ofertas/oferta3.jpg" alt="Yerba Mate Amanda Suave 500 Gr">
-        <h3>Yerba Mate Amanda Suave 500 Gr.</h3>
-        <p>Precio: $649</p>
-        <button>Agregar al carrito</button>
-      </div>
-      <div class="producto">
-        <img src="./img/ofertas/oferta4.jpg" alt="Cápsula La Morenita Colombia 52 Gr">
-        <h3>Cápsula La Morenita Colombia 52 Gr.</h3>
-        <p>Precio: $1.199</p>
-        <button>Agregar al carrito</button>
-      </div>
-      <div class="producto">
-        <img src="./img/ofertas/oferta5.jpg" alt="Azúcar Plus DIA Común tipo A 1 Kg.">
-        <h3>Azúcar Plus DIA Común tipo A 1 Kg.</h3>
-        <p>Precio: $549</p>
-        <button>Agregar al carrito</button>
-      </div>
-      <div class="producto">
-        <img src="./img/ofertas/oferta6.jpg" alt="Mate Cocido DIA en saquitos 50 Ud">
-        <h3>Mate Cocido DIA en saquitos 50 Ud</h3>
-        <p>Precio: $209</p>
-        <button>Agregar al carrito</button>
-      </div> 
+
     </section>
+
+    <section class="ocultar">
+      <h1>
+        <span id="cantidadProductos">0</span>
+      </h1>
+      <div id="scroll">
+        <div id="Carrito">
+          <!-- Acá van a estar todos los productos que tengamos en el carrito -->
+        </div>
+      </div>
+      <h2>Total: $<span id="totalCarrito">0</span></h2>
+    </section>
+    
   </main>
   <section class="ver-mas">
     <button>Ver más</button>
@@ -161,5 +106,6 @@
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="main.js" ></script>
 </body>
 </html>

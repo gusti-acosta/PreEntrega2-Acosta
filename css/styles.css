@@ -246,6 +246,83 @@ nav {
   border-radius: 5px;
 }
 
+.ocultar {
+  position: fixed;
+  box-shadow: -6px -2px 25px -13px rgba(0, 0, 0, 0.15);
+  width: 340px;
+  height: 100%;
+  top: 0;
+  right: 0;
+  padding: 30px;
+  transition: all 0.2s;
+  background-color: white;
+  right: -340px;
+  transition: all 0.2s;
+}
+.ocultar h1 {
+  position: absolute;
+  top: 20px;
+  right: 360px;
+  display: block;
+  width: 55px;
+  height: 55px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.2);
+  background: url("/img/carrito.png") no-repeat #FF5733;
+  background-size: 60%;
+  background-position: 9px center;
+}
+.ocultar h1 span {
+  display: block;
+  background-color: #d15280;
+  border-radius: 150px;
+  padding: 5px;
+  width: 30px;
+  text-align: center;
+  font-size: 14px;
+  margin: -10px 0 0 30px;
+}
+
+.btnAgregar,
+.btnQuitar,
+.boton {
+  color: white;
+  background-color: #244ced;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px 0;
+  border: 1px solid #244ced;
+  transition: all 0.2s;
+}
+
+.btnAgregar:hover,
+.btnQuitar:hover,
+.boton:hover {
+  border: 1px solid white;
+  scale: 1.05;
+}
+
+.productoCarrito {
+  border-bottom: 2px dashed rgba(0, 0, 0, 0.2);
+  padding: 10px 0;
+  margin-bottom: 10px;
+  line-height: 24px;
+}
+
+.productoCarrito h2 {
+  margin-bottom: 8px;
+}
+
+#scroll {
+  max-height: 96%;
+  overflow-y: auto;
+  padding-left: 5px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -492,6 +569,83 @@ nav {
 .ver-mas button {
   padding: 2px 10px;
   border-radius: 5px;
+}
+
+.ocultar {
+  position: fixed;
+  box-shadow: -6px -2px 25px -13px rgba(0, 0, 0, 0.15);
+  width: 340px;
+  height: 100%;
+  top: 0;
+  right: 0;
+  padding: 30px;
+  transition: all 0.2s;
+  background-color: white;
+  right: -340px;
+  transition: all 0.2s;
+}
+.ocultar h1 {
+  position: absolute;
+  top: 20px;
+  right: 360px;
+  display: block;
+  width: 55px;
+  height: 55px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.2);
+  background: url("/img/carrito.png") no-repeat #FF5733;
+  background-size: 60%;
+  background-position: 9px center;
+}
+.ocultar h1 span {
+  display: block;
+  background-color: #d15280;
+  border-radius: 150px;
+  padding: 5px;
+  width: 30px;
+  text-align: center;
+  font-size: 14px;
+  margin: -10px 0 0 30px;
+}
+
+.btnAgregar,
+.btnQuitar,
+.boton {
+  color: white;
+  background-color: #244ced;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px 0;
+  border: 1px solid #244ced;
+  transition: all 0.2s;
+}
+
+.btnAgregar:hover,
+.btnQuitar:hover,
+.boton:hover {
+  border: 1px solid white;
+  scale: 1.05;
+}
+
+.productoCarrito {
+  border-bottom: 2px dashed rgba(0, 0, 0, 0.2);
+  padding: 10px 0;
+  margin-bottom: 10px;
+  line-height: 24px;
+}
+
+.productoCarrito h2 {
+  margin-bottom: 8px;
+}
+
+#scroll {
+  max-height: 96%;
+  overflow-y: auto;
+  padding-left: 5px;
 }
 
 @media (max-width: 768px) {
