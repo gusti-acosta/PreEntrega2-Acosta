@@ -68,7 +68,7 @@ nav {
   grid-gap: 10px;
 }
 .productos .producto {
-  border: 2px solid #ccc;
+  border: 3px solid #ccc;
   text-align: center;
   border-radius: 3px;
 }
@@ -77,7 +77,7 @@ nav {
   transition: box-shadow 0.3s ease;
 }
 .productos .producto img {
-  max-width: 100%;
+  width: 287px;
   border-bottom: 1px solid #ccc;
 }
 .productos .producto h3 {
@@ -232,8 +232,8 @@ nav {
   transform: scale(1.03);
 }
 
-#carouselExampleControls {
-  margin: 0px 70px 20px 70px;
+#carouselExampleSlidesOnly {
+  margin: 0px 0px 0px 0px;
 }
 
 .ver-mas {
@@ -246,7 +246,7 @@ nav {
   border-radius: 5px;
 }
 
-.ocultar {
+section {
   position: fixed;
   box-shadow: -6px -2px 25px -13px rgba(0, 0, 0, 0.15);
   width: 340px;
@@ -256,25 +256,25 @@ nav {
   padding: 30px;
   transition: all 0.2s;
   background-color: white;
-  right: -340px;
-  transition: all 0.2s;
 }
-.ocultar h1 {
+
+section h1 {
   position: absolute;
   top: 20px;
   right: 360px;
   display: block;
-  width: 55px;
-  height: 55px;
+  width: 50px;
+  height: 50px;
   border-radius: 10px;
   cursor: pointer;
   color: white;
   box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.2);
-  background: url("/img/carrito.png") no-repeat #FF5733;
+  background: url("../img/carrito2.png") no-repeat #FF5733;
   background-size: 60%;
   background-position: 9px center;
 }
-.ocultar h1 span {
+
+section h1 span {
   display: block;
   background-color: #d15280;
   border-radius: 150px;
@@ -285,17 +285,23 @@ nav {
   margin: -10px 0 0 30px;
 }
 
+section h3 {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+
 .btnAgregar,
 .btnQuitar,
 .boton {
   color: white;
-  background-color: #244ced;
+  background-color: #FF5733;
   text-decoration: none;
   display: inline-block;
   padding: 10px;
   border-radius: 10px;
   margin: 10px 0;
-  border: 1px solid #244ced;
+  border: 1px solid #FF5733;
   transition: all 0.2s;
 }
 
@@ -304,6 +310,7 @@ nav {
 .boton:hover {
   border: 1px solid white;
   scale: 1.05;
+  text-emphasis: none;
 }
 
 .productoCarrito {
@@ -321,6 +328,40 @@ nav {
   max-height: 96%;
   overflow-y: auto;
   padding-left: 5px;
+}
+
+.ocultar {
+  right: -340px;
+  transition: all 0.2s;
+}
+
+.productoCarrito {
+  border-bottom: 2px dashed rgba(0, 0, 0, 0.2);
+  padding: 10px 0;
+  margin-bottom: 10px;
+  line-height: 24px;
+}
+.productoCarrito h2 {
+  margin-bottom: 8px;
+}
+
+#var-Productos {
+  text-align: center;
+  border: solid #FF5733 5px;
+  background-color: #FF5733;
+  width: 100%;
+  height: 50px;
+}
+#var-Productos li {
+  display: inline;
+  margin: 0 100px;
+  color: black;
+  cursor: pointer;
+  font-size: 30px;
+  font-weight: 300px;
+}
+#var-Productos li:hover {
+  color: #fff;
 }
 
 * {
@@ -393,7 +434,7 @@ nav {
   grid-gap: 10px;
 }
 .productos .producto {
-  border: 2px solid #ccc;
+  border: 3px solid #ccc;
   text-align: center;
   border-radius: 3px;
 }
@@ -402,7 +443,7 @@ nav {
   transition: box-shadow 0.3s ease;
 }
 .productos .producto img {
-  max-width: 100%;
+  width: 287px;
   border-bottom: 1px solid #ccc;
 }
 .productos .producto h3 {
@@ -557,8 +598,8 @@ nav {
   transform: scale(1.03);
 }
 
-#carouselExampleControls {
-  margin: 0px 70px 20px 70px;
+#carouselExampleSlidesOnly {
+  margin: 0px 0px 0px 0px;
 }
 
 .ver-mas {
@@ -571,7 +612,7 @@ nav {
   border-radius: 5px;
 }
 
-.ocultar {
+section {
   position: fixed;
   box-shadow: -6px -2px 25px -13px rgba(0, 0, 0, 0.15);
   width: 340px;
@@ -581,25 +622,25 @@ nav {
   padding: 30px;
   transition: all 0.2s;
   background-color: white;
-  right: -340px;
-  transition: all 0.2s;
 }
-.ocultar h1 {
+
+section h1 {
   position: absolute;
   top: 20px;
   right: 360px;
   display: block;
-  width: 55px;
-  height: 55px;
+  width: 50px;
+  height: 50px;
   border-radius: 10px;
   cursor: pointer;
   color: white;
   box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.2);
-  background: url("/img/carrito.png") no-repeat #FF5733;
+  background: url("../img/carrito2.png") no-repeat #FF5733;
   background-size: 60%;
   background-position: 9px center;
 }
-.ocultar h1 span {
+
+section h1 span {
   display: block;
   background-color: #d15280;
   border-radius: 150px;
@@ -610,17 +651,23 @@ nav {
   margin: -10px 0 0 30px;
 }
 
+section h3 {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+
 .btnAgregar,
 .btnQuitar,
 .boton {
   color: white;
-  background-color: #244ced;
+  background-color: #FF5733;
   text-decoration: none;
   display: inline-block;
   padding: 10px;
   border-radius: 10px;
   margin: 10px 0;
-  border: 1px solid #244ced;
+  border: 1px solid #FF5733;
   transition: all 0.2s;
 }
 
@@ -629,6 +676,7 @@ nav {
 .boton:hover {
   border: 1px solid white;
   scale: 1.05;
+  text-emphasis: none;
 }
 
 .productoCarrito {
@@ -646,6 +694,40 @@ nav {
   max-height: 96%;
   overflow-y: auto;
   padding-left: 5px;
+}
+
+.ocultar {
+  right: -340px;
+  transition: all 0.2s;
+}
+
+.productoCarrito {
+  border-bottom: 2px dashed rgba(0, 0, 0, 0.2);
+  padding: 10px 0;
+  margin-bottom: 10px;
+  line-height: 24px;
+}
+.productoCarrito h2 {
+  margin-bottom: 8px;
+}
+
+#var-Productos {
+  text-align: center;
+  border: solid #FF5733 5px;
+  background-color: #FF5733;
+  width: 100%;
+  height: 50px;
+}
+#var-Productos li {
+  display: inline;
+  margin: 0 100px;
+  color: black;
+  cursor: pointer;
+  font-size: 30px;
+  font-weight: 300px;
+}
+#var-Productos li:hover {
+  color: #fff;
 }
 
 @media (max-width: 768px) {
@@ -673,6 +755,19 @@ nav {
     font-weight: 150px;
   }
 }
+#var-Productos li {
+  display: inline;
+  margin: 0 100px;
+  color: black;
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: 250px;
+}
+#var-Productos li:hover {
+  scale: 1.2;
+  color: #fff;
+}
+
 @media (max-width: 375px) {
   .productos {
     grid-template-columns: 1fr;

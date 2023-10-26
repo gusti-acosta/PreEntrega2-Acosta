@@ -32,6 +32,18 @@
     font-weight: 150px;
   }
 }
+#var-Productos li {
+  display: inline;
+  margin: 0 100px; 
+  color: black;
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: 250px;
+  &:hover {
+      scale: 1.20;
+      color: #fff;
+  }
+}
 
 @media (max-width: 375px) {
   .productos {

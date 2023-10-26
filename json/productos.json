@@ -1,0 +1,170 @@
+[
+    {
+        "id": 1,
+        "nombre": "Bicicletas Overtech Fortis Talle L negro rojo",
+        "precio": 80769,
+        "imagen": "/img/productos/producto1.jpg",
+        "categoria": "Ofertas del dia"
+    },
+    {
+        "id": 2,
+        "nombre": "Mesa Picnic Plastica Portable 180cm Gardenlife",
+        "precio": 15000,
+        "imagen": "/img/productos/producto2.jpg",
+        "categoria": "Ofertas del dia"
+    },
+    {
+        "id": 3,
+        "nombre": "ULTRAFLEX EN POLVO X 300 GRAMOS",
+        "precio": 9498,
+        "imagen": "/img/productos/producto3.jpg",
+        "categoria": "Ofertas del dia"
+    },
+    {
+        "id": 4,
+        "nombre": "Celular Samsung Galaxy A04 64/4GB Negro",
+        "precio": 56999,
+        "imagen": "/img/productos/producto4.jpg",
+        "categoria": "Tecnologia"
+    },
+    {
+        "id": 5,
+        "nombre": "Disco Rigido Externo 1tb Seagate Usb 3.0 Portatil",
+        "precio": 38719,
+        "imagen": "/img/productos/producto5.jpg",
+        "categoria": "Tecnologia"
+    },
+    {
+        "id": 6,
+        "nombre": "Aire Split Bgh 3450w Frio Calor Bs35wccr",
+        "precio": 259999,
+        "imagen": "/img/productos/producto6.jpg",
+        "categoria": "Ofertas del dia"
+    },
+    {
+        "id": 7,
+        "nombre": "Café Nescafé Dolca Suave",
+        "precio": 1799,
+        "imagen": "/img/ofertas/oferta1.jpg",
+        "categoria": "Ofertas del dia"
+    },
+    {
+        "id": 8,
+        "nombre": "Polvo Exquisita Chocolatado 180 Gr",
+        "precio": 375,
+        "imagen": "/img/ofertas/oferta2.jpg",
+        "categoria": "Ofertas del dia"
+    },
+    {
+        "id": 9,
+        "nombre": "Yerba Mate Amanda Suave 500 Gr",
+        "precio": 649,
+        "imagen": "/img/ofertas/oferta3.jpg",
+        "categoria": "Ofertas del dia"
+    },
+    {
+        "id": 10,
+        "nombre": "Cápsula La Morenita Colombia 52 Gr",
+        "precio": 1199,
+        "imagen": "/img/ofertas/oferta4.jpg",
+        "categoria": "Ofertas del dia"
+    },
+    {
+        "id": 11,
+        "nombre": "Azúcar Plus DIA Común tipo A 1 Kg.",
+        "precio": 549,
+        "imagen": "/img/ofertas/oferta5.jpg",
+        "categoria": "Ofertas del dia"
+    },
+    {
+        "id": 12,
+        "nombre": "Mate Cocido DIA en saquitos 50 Ud",
+        "precio": 209,
+        "imagen": "/img/ofertas/oferta6.jpg",
+        "categoria": "Oferta del dia"
+    },
+    {
+        "id": 13,
+        "nombre": "Xiaomi Mi Smart Band 7 1.62\" caja negra, malla negra",
+        "precio": 20899,
+        "imagen": "./img/ProductosDeTecnologia/smartwatches/smart1.jpg",
+        "categoria": "Tecnologia"
+    },
+    {
+        "id": 14,
+        "nombre": "Smartwatch Microwear W26 1.75\" caja de aleación de zinc oro rosa, malla rosa",
+        "precio": 7533,
+        "imagen": "./img/ProductosDeTecnologia/smartwatches/smart2.jpg",
+        "categoria": "Tecnologia"
+    },
+    {
+        "id": 15,
+        "nombre": "Reloj Smartwatch Xiaomi Imilab W01 1.69 Rosa Oxímetro Full",
+        "precio": 19499,
+        "imagen": "./img/ProductosDeTecnologia/smartwatches/smart3.jpg",
+        "categoria": "Tecnologia"
+    },
+    {
+        "id": 16,
+        "nombre": "Smartwatch DT NO.1 DT100 1.75\" caja 44mm rose gold, malla rose gold",
+        "precio": 17090,
+        "imagen": "./img/ProductosDeTecnologia/smartwatches/smart4.jpg",
+        "categoria": "Tecnologia"
+    },
+    {
+        "id": 17,
+        "nombre": "Celular Motorola E22 XT2239-9 3GB 32GB Negro",
+        "precio": 57486,
+        "imagen": "./img/ProductosDeTecnologia/producto1.jpg",
+        "categoria": "Tecnologia"
+    },
+    {
+        "id": 18,
+        "nombre": "Celular Tcl 40 Se 4gb 128gb 50mpx Nfc Lavanda",
+        "precio": 75999,
+        "imagen": "./img/ProductosDeTecnologia/producto2.jpg",
+        "categoria": "Tecnologia"
+    },
+    {
+        "id": 19,
+        "nombre": "Samsung Galaxy A14 5g 128 Gb Black 4 Gb Ram",
+        "precio": 109999,
+        "imagen": "./img/ProductosDeTecnologia/producto3.jpg",
+        "categoria": "Tecnologia"
+    },
+    {
+        "id": 20,
+        "nombre": "Noga NG-BTWINS4 - Blanco",
+        "precio": 4923,
+        "imagen": "./img/ProductosDeTecnologia/producto4.jpg",
+        "categoria": "Tecnología"
+    },
+    {
+        "id": 21,
+        "nombre": "Auriculares in-ear gamer inalámbricos XG-8 negro",
+        "precio": 57486,
+        "imagen": "./img/ProductosDeTecnologia/auriculares/auriculares1.jpg",
+        "categoria": "Tecnologia"
+    },
+    {
+        "id": 22,
+        "nombre": "Genérica F9 - Negro",
+        "precio": 2920,
+        "imagen": "./img/ProductosDeTecnologia/auriculares/auriculares2.jpg",
+        "categoria": "Tecnologia"
+    },
+    {
+        "id": 23,
+        "nombre": "Auriculares Inalambricos A8s Alpina Touch 25 Hs Bateria",
+        "precio": 3035,
+        "imagen": "./img/ProductosDeTecnologia/auriculares/auriculares3.jpg",
+        "categoria": "Tecnologia"
+    },
+    {
+        "id": 24,
+        "nombre": "Tecno Spark Go 2023 Dual SIM 64 GB negro",
+        "precio": 2034,
+        "imagen": "./img/ProductosDeTecnologia/auriculares/auriculares4.jpg",
+        "categoria": "Tecnologia"
+    }
+]

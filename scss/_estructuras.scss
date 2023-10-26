@@ -72,7 +72,7 @@ nav {
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
     .producto {
-        border: 2px solid  $color-borde1;
+        border: 3px solid  $color-borde1;
         text-align: center;
         border-radius: 3px;
         &:hover {
@@ -80,7 +80,7 @@ nav {
             transition: box-shadow 0.3s ease;
         }
         img {
-            max-width: $w-100;
+            width: 287px ;
             border-bottom: 1px solid  $color-borde1;
         }
         h3{
@@ -234,8 +234,8 @@ nav {
     }    
 }
 
-#carouselExampleControls {
-    margin: 0px 70px 20px 70px;
+#carouselExampleSlidesOnly{
+    margin: 0px 0px 0px 0px;
 }
 
 .ver-mas {
@@ -248,7 +248,7 @@ nav {
     }
 }
 
-.ocultar { 
+section{
     position: fixed;
     box-shadow: -6px -2px 25px -13px rgba(0, 0, 0, 0.15);
     width: 340px;
@@ -258,65 +258,101 @@ nav {
     padding: 30px;
     transition: all 0.2s;
     background-color: white;
-    right: -340px;
-    transition: all 0.2s;
-    h1{
-        position: absolute;
-        top: 20px;
-        right: 360px;   
-        display: block;
-        width: 55px;
-        height: 55px;
-        border-radius: 10px;
-        cursor: pointer;
-        color: white;
-        box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.2);
-        background: url("/img/carrito.png") no-repeat #FF5733;
-        background-size: 60%;
-        background-position: 9px center;
-        span {
-            display: block;
-            background-color: #d15280;
-            border-radius: 150px;
-            padding: 5px;
-            width: 30px;
-            text-align: center;
-            font-size: 14px;
-            margin: -10px 0 0 30px;
-        }
-    }
 }
+section h1 {
+    position: absolute;
+    top: 20px;
+    right: 360px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.2);
+    background: url("../img/carrito2.png") no-repeat $naranja;
+    background-size: 60%;
+    background-position: 9px center;
+}
+section h1 span {
+    display: block;
+    background-color: #d15280;
+    border-radius: 150px;
+    padding: 5px;
+    width: 30px;
+    text-align: center;
+    font-size: 14px;
+    margin: -10px 0 0 30px;
+}
+section h3 {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 30px;
+  }
 .btnAgregar,
 .btnQuitar,
 .boton {
-  color: white;
-  background-color: #244ced;
-  text-decoration: none;
-  display: inline-block;
-  padding: 10px;
-  border-radius: 10px;
-  margin: 10px 0;
-  border: 1px solid #244ced;
-  transition: all 0.2s;
+color: white;
+background-color: $naranja;
+text-decoration: none;
+display: inline-block;
+padding: 10px;
+border-radius: 10px;
+margin: 10px 0;
+border: 1px solid $naranja;
+transition: all 0.2s;
 }
 .btnAgregar:hover,
 .btnQuitar:hover,
 .boton:hover {
-  border: 1px solid white;
-  scale: 1.05;
+border: 1px solid white;
+scale: 1.05;
+text-emphasis: none;
 }
 .productoCarrito {
-  border-bottom: 2px dashed rgba(0, 0, 0, 0.2);
-  padding: 10px 0;
-  margin-bottom: 10px;
-  line-height: 24px;
+border-bottom: 2px dashed rgba(0, 0, 0, 0.2);
+padding: 10px 0;
+margin-bottom: 10px;
+line-height: 24px;
 }
 .productoCarrito h2 {
-  margin-bottom: 8px;
+margin-bottom: 8px;
+}
+#scroll {
+max-height: 96%;
+overflow-y: auto;
+padding-left: 5px;
+}
+  .ocultar {
+    right: -340px;
+    transition: all 0.2s;
+  }
+
+.productoCarrito {
+    border-bottom: 2px dashed rgba(0, 0, 0, 0.2);
+    padding: 10px 0;
+    margin-bottom: 10px;
+    line-height: 24px;
+    h2 {
+        margin-bottom: 8px;
+    }
 }
 
-#scroll {
-    max-height: 96%;
-    overflow-y: auto;
-    padding-left: 5px;
+#var-Productos {
+    text-align: center; 
+    border:solid $naranja 5px;
+    background-color: $naranja;
+    width: 100%;
+    height: 50px; 
+    li {
+        display: inline;
+        margin: 0 100px; 
+        color: black;
+        cursor: pointer;
+        font-size: 30px;
+        font-weight: 300px;
+        &:hover {
+            color: #fff;
+        }
+    }
 }
